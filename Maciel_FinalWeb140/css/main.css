@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Cabin);
+
+
+/*These rules create the basic layout*/
+
+
+html {
+    background: #D8C3D4;
+}
+
+body {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #87D6C2;
+    font-family: 'cabin', sans-serif;
+}
+
+header {
+    height: 400px;
+    background: #87D6C2;
+    font-family: 'lobster', cursive;
+}
+
+article{
+    width:1200 px;
+    height:600px;
+    background:#87D6C2;
+}
+
+footer {
+    height: 50px;
+    background: #D8C3D4;
+    text-align: center;
+    font-family: 'cabin', sans-serif;    
+}
+
+
+/*These rules format the site navigation*/
+
+nav {
+    height: 100px;
+    width: 1200px;
+    background: #D8C3D4;
+    position: fixed;
+    top: 0;
+    
+    }
+ul {
+    list-style-type: none;
+    padding-top: 40px;
+    padding-right: 25px;
+    text-align: right;
+}
+
+
+li { border-right: 1px solid #666;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    padding: 12px;
+    color: #454542;
+    font-size: 18px;
+   
+}
+
+a:hover {
+    color: #fff;
+}
+
+
+/*These rules format the site content*/
+
+
+p {
+    margin: 0;
+    font-size: 14px;
+    color: #454542;
+    line-height: 50px;
+    padding: 50px;
+}
+
+
+
+h2 {
+    font-size: 18px;
+    color: #454542;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 100px;
+    color: #454542;
+    text-align: center;
+    padding-top: 175px;
+}
